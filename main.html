@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="abdul">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="script.js" defer></script>
+    <title>Vemana Institute of Technology | Bangalore</title>
+</head>
+<body>
+    <header>
+        <figure id="logo">
+            <img src="My project.png" alt="college_logo">
+            <figcaption class="image-caption"><em>Vemana Institute of Technology</em></figcaption>
+        </figure>
+    </header>
+    <div id="buttons">
+        <button class="tablink" onclick="openPage('Academics',this,'#A0CA36')">Academics</button>
+        <button class="tablink" onclick="openPage('Home',this,'#A0CA36')"id="defaultOpen">Home</button>
+        <button class="tablink" onclick="openPage('Gallery',this,'#A0CA36')">Gallery</button>
+    </div>
+
+    <div id="Home" class="tabcontent">
+        <p>Vemana Institute of Technology is an engineering college located in Bangalore, India. With a focus on providing quality education in the field of technology, the college offers undergraduate and postgraduate programs in various disciplines such as computer science, electronics and communication, mechanical engineering, and civil engineering. The college is known for its strong emphasis on ethics and culture, with the aim of producing graduates who are not only technically proficient but also have a strong moral compass. Vemana Institute of Technology is committed to providing a holistic education that prepares students for the challenges of the future.</p>
+    </div>  
+
+    <div id="Academics" class="tabcontent">
+        <h3>Departments and Courses</h3>
+        <p>
+            <ul>Electronics and Robotics Engineering
+                <li><a href="digitalelectronics.html" target="_blank">Introduction to Digital Electronics</a></li>
+                <li><a href="controlsystemsforrobotics.html" target="_blank">Control Systems for Robotics</a></li>
+            </ul>
+            <ul>Computer Science and Enginering
+                <li><a href="introductiontocomputerprogramming.html" target="_blank">Introduction to Computer Programming</a></li>
+                <li><a href="datastructesandalgorithms.html" target="_blank">Data Structures and Algorithms</a></li>
+            </ul>
+        </p>
+    </div>
+
+    <div id="Gallery" class="tabcontent"> 
+        <figure>
+            <img id="firstphoto" src="gallery1.jpg" alt="photo">  
+            <img id="thirdphoto" src="gallery3.jpg" alt="photo">
+            <img id="secondphoto" src="gallery2.jpg" alt="photo"> 
+        </figure>
+
+    </div>
+
+    <footer>
+        &copy;2023 Abdul
+    </footer>
+</body>
+</html>

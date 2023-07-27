@@ -1,0 +1,99 @@
+body{
+    background-color:#D7D9D1;
+
+}
+
+p,div{
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tablink{
+    width: 100%;
+    max-width: 400px;
+    background-color: #CDE190;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+.tablink:hover{
+    background-color: #E3E372;
+}
+
+.tabcontent {
+    color: rgb(0, 0, 0);
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#firstphoto{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-right: 10px;
+    float: left;
+    border: 10px solid rgb(230, 186, 105);
+    border-radius: 20px;
+}
+
+#thirdphoto{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-right: 10px;
+    float: right;
+    border: 10px solid rgb(230, 186, 105);
+    border-radius: 20px;
+}
+
+#secondphoto{
+    border: 10px solid rgb(230, 186, 105);
+    border-radius: 20px;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    text-align: center;
+}
+figure#logo{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.image-caption{
+    font-size: 35px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 60px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(149, 134, 163);
+}
+
+#Home{background-color: #D7D9D1;}
+#Academics{background-color: #D7D9D1 ;}
+#Gallery{background-color: #D7D9D1;}
